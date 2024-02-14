@@ -27,6 +27,15 @@ public:
 
 int main()
 {
+    Rectangulo rectangulo1;
+    Rectangulo rectangulo2(5, 10);
+    Rectangulo rectangulo3(5,10,15,20);
+    cout << "Area del rectangulo 1 es: " << rectangulo1.getArea() << endl;
+    cout << endl;
+    cout << "Area del rectangulo 2 es: " << rectangulo2.getArea() << endl;
+    cout << endl;
+    cout << "Area del rectangulo 3 es: " << rectangulo3.getArea() << endl;
+    cout << endl;
 }
 
 Rectangulo::Rectangulo()
@@ -101,6 +110,6 @@ int Rectangulo::getArea(){
 
 void Rectangulo::intersecta(Rectangulo rect){
 
-    
+
 
 }
