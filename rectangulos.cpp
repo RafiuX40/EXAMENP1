@@ -132,6 +132,11 @@ void Rectangulo::intersecta(Rectangulo rect)
         {
             cout << "Los rectangulos si intersectan" << endl;
         }
+        else{
+
+            cout << "No intersecta" << endl;
+
+        }
     }
     else
     {
